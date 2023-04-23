@@ -1,41 +1,45 @@
 import { writable } from "svelte/store";
 
 // Layout.svelte : 
-import Logo from "$lib/logo.png";
+import Logo from "$lib/calendar.png";
 export let layoutData = writable({
     imgSrc: Logo,
-    title: "Funky Tunky",
+    title: "Event Hub",
     navs: [
         {
             nv: "Home",
             link: "/",
         },
         {
-            nv: "Products",
+            nv: "Events",
             link: "/products",
         },
         {
             nv: "About Us",
             link: "/about",
         },
+        {
+            nv: "Organize",
+            link: "/organize",
+        },
     ],
 });
 // Footer Page : 
 export let footerData = writable({
-    footerTitle: "Funky Tunky",
+    footerTitle: "Event Hub",
     footerLink: "funkytunky",
-    facebookLink: "https://www.facebook.com/sikandar.s.bhide/",
-    twitterLink: "https://twitter.com/Sikandar_Bhide",
-    instagramLink: "https://www.instagram.com/sikandar.s.bhide/",
-    linkedinLink: "https://www.linkedin.com/in/sikandar-bhide-5b1b3b1b/",
+    facebookLink: "/",
+    twitterLink: "/",
+    instagramLink: "/",
+    linkedinLink: "/",
 });
 // Main page : 
 export let mainPageData = writable([
     {
         id: 1,
-        metaTitle: "Build Wesite",
+        metaTitle: "Event Management",
         metaDesc: "Website Started Created by Sikandar Bhide",
-        metaImg: "https://cdn-icons-png.flaticon.com/512/4791/4791243.png"
+        metaImg: Logo
     },
     {
         // +page.svelte data

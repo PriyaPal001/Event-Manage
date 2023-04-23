@@ -130,7 +130,7 @@
 <style lang="postcss">
   .act {
     color: rgb(17, 170, 252);
-    background: #46617dc4;
+    background: #210062;
   }
   #nav_height {
     min-height: 60px;
