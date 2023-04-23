@@ -48,7 +48,7 @@
   };
 </script>
 
-<div class=" py-6 sm:py-8 lg:py-12 bg-white">
+<div class=" py-6 sm:py-8 lg:py-12 bg-gradient-to-b from-sky-100 via-sky-200 to-sky-400">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <!-- text - start -->
     <div class="mb-10 md:mb-5">
