@@ -5,9 +5,8 @@
   import { pgdata } from "$lib/components/Products/productData.js";
   //   Routed Id
   let id = $page.params.productsID;
-  let btn = "Buy Now";
   let productText =
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium delectus explicabo eaque, ad animi commodi numquam molestias veniam iste ex!";
+    `Every Event is Organized by a Team of Professionals, who are there to help you with everything you need. We are passionate about our work and committed to providing top class service to our clients.  `;
 </script>
 
 <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
@@ -150,44 +149,9 @@
         <div
           class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5"
         >
-          <div class="flex ml-6 items-center">
-            <span class="mr-3">Size</span>
-            <div class="relative">
-              <select
-                class="rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-indigo-500 text-white pl-3 pr-10"
-              >
-                <option>SM</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
-              </select>
-              <span
-                class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center"
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </span>
-            </div>
-          </div>
+
         </div>
-        <div class="flex">
-          <span class="title-font font-medium text-2xl text-white"
-            >{$productData[id - 1].price}</span
-          >
-          <button
-            class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
-            >{$productsInfo.btn}</button
-          >
-        </div>
+       
       </div>
     </div>
   </div>
