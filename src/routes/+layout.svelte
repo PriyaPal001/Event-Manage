@@ -10,7 +10,7 @@
 
 <!-- You Can Add bg-base-100 or bg-gray-900 border-b-2 border-slate-200 -->
 <div
-  class="navbar  bg-gray-900 border-b-2 border-slate-400 hidden md:flex "
+  class="navbar  border-b-2 border-slate-400 hidden md:flex "
   id="nav_height"
 >
   <div class="navbar-start ">
@@ -129,8 +129,13 @@
 
 <style lang="postcss">
   .act {
-    color: rgb(17, 170, 252);
-    background: #210062;
+    color: rgb(225, 236, 246);
+    border: 2px solid black;
+    /* background: #f51fdcca; */
+    /* background: #269efaca; */
+    /* background: #f51fdcca; */
+    background: #1887f6ca;
+    /* background: #f51fdcca; */
   }
   #nav_height {
     min-height: 60px;

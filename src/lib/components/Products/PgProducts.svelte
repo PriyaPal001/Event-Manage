@@ -45,13 +45,6 @@
                 class="text-slate-300 hover:text-sky-400 text-lg lg:text-xl font-bold transition duration-100"
                 >{product.title}</a
               >
-              <span class="text-slate-500">by {product.brand}</span>
-            </div>
-
-            <div class="flex flex-col items-end">
-              <span class="text-cyan-400 lg:text-lg font-bold"
-                >{product.price}</span
-              >
             </div>
           </div>
         </div>

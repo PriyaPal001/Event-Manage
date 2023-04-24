@@ -4,7 +4,7 @@
 </script>
 
 <section
-  class="bg-gray-800 border-t-2 border-slate-400 bg-gradient-to-t from-gray-800 to-gray-900 "
+  class=" border-t-2 border-slate-400 bg-gradient-to-b from-gray-900 to-sky-900 "
 >
   <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
     <div class="mx-auto max-w-3xl text-center">

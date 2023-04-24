@@ -3,19 +3,20 @@
   let pgdata = $mainPageData[2];
 </script>
 
-<section class="bg-gray-900">
+<section class="">
   <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+    <h1 class="text-5xl mb-7 ml-10 font-bold">Past Events</h1>
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
       <div
-        class="grid p-6 bg-gradient-to-b from-slate-600 to-gray-900 rounded place-content-center sm:p-8 shadow-2xl"
+        class="grid p-6 bg-gradient-to-b from-pink-500 via-pink-600  to-gray-800 rounded-2xl place-content-center sm:p-8 shadow-2xl"
       >
         <div class="max-w-md mx-auto text-center lg:text-left">
           <header>
-            <h2 class="text-xl font-bold text-sky-500 sm:text-5xl">
+            <h2 class="text-xl font-bold text-white sm:text-5xl">
               {pgdata.title}
             </h2>
 
-            <p class="mt-4 text-slate-400">
+            <p class="mt-4 text-slate-300">
               {pgdata.text}
             </p>
           </header>
