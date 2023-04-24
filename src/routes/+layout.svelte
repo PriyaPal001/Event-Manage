@@ -62,7 +62,7 @@
   </div>
 </div>
 <!-- Bottom Navigation for Phone -->
-<div class="btm-nav md:hidden z-10 backdrop-blur-sm bg-transparent">
+<div class="btm-nav md:hidden z-10 backdrop-blur-sm bg-transparent ">
   <a href="/" class={RouteId === "/" ? "text-info active bg-[#0FBBFF3F]" : " "}>
     <button>
       <svg
@@ -101,8 +101,8 @@
     </button>
   </a>
   <a
-    href="/about"
-    class={RouteId === "/about" ? "text-info active bg-[#0FBBFF3F]" : " "}
+    href="/organize"
+    class={RouteId === "/organize" ? "text-info active bg-[#0FBBFF3F]" : " "}
   >
     <button>
       <svg

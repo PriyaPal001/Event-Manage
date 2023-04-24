@@ -60,11 +60,11 @@
         <span class="text-sky-500"> Get In Touch </span>
       </h2>
 
-      <div class="text-center flex justify-center align-middle items-center">
-        <button class="btn gap-2 lowercase bg-transparent text-gray-900 border-sky-500 mx-4 hover:bg-sky-300">
+      <div class="text-center flex justify-center align-middle items-center flex-col md:flex-row">
+        <button class="btn gap-2 lowercase bg-transparent text-gray-900 border-sky-500 m-4 hover:bg-sky-300">
           eventhub@email.com
         </button>
-        <button class="btn gap-2 lowercase bg-transparent text-gray-900 border-sky-500 mx-4 hover:bg-sky-300">
+        <button class="btn gap-2 lowercase bg-transparent text-gray-900 border-sky-500 m-4 hover:bg-sky-300">
           Phone no: 9137893440
         </button>
       </div>
